@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#553636;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+button{
+    cursor:pointer;
+    font-size:10px;
+    padding:5px 10px;
+    border-radius:6px;
+    border:2px solid yellow;
+}
+button:hover{
+    background:#9f5454;
+    color: #48b49e;
+    transition:0.3s;
+}

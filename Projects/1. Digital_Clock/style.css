@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: Arial;
+}
+
+.clock{
+    font-size: 70px;
+    font-weight: bold;
+    background: #222;
+    padding: 20px 40px;
+    border-radius: 10px;
+}

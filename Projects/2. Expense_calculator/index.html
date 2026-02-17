@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Expense Calculator</h2>
+        <input type="text" id="expenseName" placeholder="Expense name">
+        <input type="number" id="expenseAmount" placeholder="Amount">
+
+        <button onClick="addExpense()">Add Expense</button>
+
+        <h3>Total: ₹<span id="total">0</span></h3>
+
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

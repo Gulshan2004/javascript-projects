@@ -1,0 +1,28 @@
+body{
+    justify-content:center;
+    display:flex;
+    align-items:center;
+    height:100vh;
+    background:#111;
+}
+.gallery{
+    text-align:center;
+}
+#mainImg{
+    height:560px;
+    width: 540px;
+    margin-bottom:10px;
+    border:2px solid white;
+    object-fit:cover;
+}
+.thumb{
+    height:80px;
+    width:50px;
+    object-fit:cover;
+    margin:5px;
+    border:2px solid rgb(188, 183, 232);
+    cursor:pointer;
+}
+.thumb:hover{
+   border:2px solid yellow;
+}
